@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BINGO UI</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="landingpage">
+        <div class="fallingstar">
+            <img src="pics/fallingstar.gif" alt="">
+        </div>
+        <div class="container">
+            <div class="nav">
+                <p id="logo">BINGO</p>
+                <p id="logoinfo">The Multiplayer version</p>
+            </div>
+            <div class="content">
+                <button id="playonline">
+                    Play Online 
+                </button>
+                <button id="credits">
+                    Credits
+                </button>
+            </div>
+            <div class="aboutus"> 
+                <i class="ri-github-fill"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="playwithfriendspage">
+        <div class="container">
+            <div class="nav">
+                <p id="logo">BINGO</p>
+                <p id="logoinfo">The Multiplayer version</p>
+            </div>
+            <div class="content">
+                <div class="playerdetails">
+                    <!-- <div class="pdtext">
+                        <p> Player Details</p>
+                    </div> -->
+                    <div class="form">
+                        <div class="nameinp">
+                            <p>NAME</p>
+                            <input id="nameinput" type="text" placeholder="" required>
+                        </div>
+                        <!-- <div class="roominp">
+                            <p>ROOM NUMBER</p>
+                            <input type ='text'
+                            placeholder="" required>
+                        </div> -->
+                        <div class="buttoninp">
+                            <button  id="join">
+                                JOIN
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="waitingpage">
+        <p>
+            Waiting for other players to join...
+        </p>
+        <img src="/pics/0-5-unscreen.gif" alt="waiting">
+    </div>
+    <div class="loadingpage" id="loadingpage">
+        <img src="/pics/download-2--unscreen.gif" alt="loadinganimation">
+    </div>
+    <div class="bingopage">
+        <div class="pageinner">
+            <div class="bingotext">
+                <div class="you">
+                    <p class="big" id="yourname">
+                        SHAWN
+                    </p>
+                    <p class="small">you</p>
+
+                    
+                </div>
+                <div class="oponent">
+                    <p class="big" id="oponentname">
+                        JOHN
+                    </p>
+                    <p class="small">oponent</p>
+                </div>
+            </div>
+            <!-- <div class="totalb"> -->
+                <div class="bingospace">
+                    <div class="nextplayer">
+                        <p id="whoplays">JOHN is selecting a number</p>
+                    </div>
+                    <div class="bingocard">
+                        <!-- <div class="bingoscriptdiv">
+                            <div class="bingorow">
+                                <div class="bingobox">1</div>
+                                <div class="bingobox">2</div>
+                                <div class="bingobox">3</div>
+                                <div class="bingobox">4</div>
+                                <div class="bingobox">5</div>
+                            </div>
+                            <div class="bingorow">
+                                <div class="bingobox">6</div>
+                                <div class="bingobox">7</div>
+                                <div class="bingobox">8</div>
+                                <div class="bingobox">9</div>
+                                <div class="bingobox">10</div>
+                            </div>
+                            <div class="bingorow">
+                                <div class="bingobox">11</div>
+                                <div class="bingobox">12</div>
+                                <div class="bingobox">13</div>
+                                <div class="bingobox">14</div>
+                                <div class="bingobox">15</div>
+                            </div>
+                            <div class="bingorow">
+                                <div class="bingobox">16</div>
+                                <div class="bingobox">17</div>
+                                <div class="bingobox">18</div>
+                                <div class="bingobox">19</div>
+                                <div class="bingobox">20</div>
+                            </div>
+                            <div class="bingorow">
+                                <div class="bingobox">21</div>
+                                <div class="bingobox">22</div>
+                                <div class="bingobox">23</div>
+                                <div class="bingobox">24</div>
+                                <div class="bingobox">25</div> 
+                            </div>
+                        </div>  -->
+                    </div>
+                    <div class="bingooptions">
+                        <div class="reset bo">
+                            <i class="ri-loop-left-fill"></i>
+                        </div>
+                        <div class="bingo bo">
+                            bingo
+                        </div>
+                        <div class="flag bo">
+                            <i class="ri-flag-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="aboutusb"> 
+                    
+                    <a href="https://google.com" target='_blank'>
+                        <i class="ri-github-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="resultspage">
+        <!-- <div class="pageinner"> -->
+            <div class="winner">
+                <p>You Won</p>
+                <div class="roptions"><div class="playagain">
+                    <button id="playagainwin">Play Again</button>
+                </div>
+                <div class="creditbtn">
+                    <button id="creditswin" >Credits</button>
+                </div></div>
+                
+            </div>
+            <div class="loser"> 
+                <p>you Lost</p>
+                <div class="roptions">
+                    <div class="playagain">
+                        <button id="playagainlose">Play Again</button>
+                    </div>
+                    <div class="credits">
+                        <button id="creditslose">Credits</button>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+         <p id="logs">logs:</p>
+        
+    </div>
+    <div class="creditspage">
+        <div class="creditshead">
+            <p>CREDITS</p>
+        </div>
+        
+        <div class="actualcredits">
+            <p>
+                <span id="subhead">Main page:</span><br>
+                Background is from <a href="https://www.freepik.com/free-vector/space-illustration-night-alien-fantasy-landscape_5603523.htm">Image by vectorpouch on Freepik</a>
+            </p>
+            <p>
+                <span id="subhead">Login page:</span><br>
+                Background is from <a href="https://www.freepik.com/free-vector/space-illustration-night-alien-fantasy-landscape_5603523.htm">Image by vectorpouch on Freepik</a>
+            </p>
+            <p>
+                <span id="subhead">Bingo page:</span><br>
+                 Images from <a href="https://www.freepik.com/free-vector/spaceship-view-earth-night-from-alien-planet_5902277.htm">Image by vectorpouch on Freepik</a>
+            </p>
+            <p>
+                <span id="subhead">Gif's:</span><br>
+                Gif's are used from pintrest
+            </p>
+            <p>
+                <span id="subhead">Design idea:</span><br>
+                Design ideology from Cyberwolf YT
+            </p>
+            <button id="homepage">HOME</button>
+        </div>
+        <div class="creditfooter">
+            <p id="small">
+                If u have any problem or If I forgot to give credit please mention it to my gmail [ // ]
+            </p>
+        </div>
+    </div>
+    <!-- <script src="https://cdn.socket.io/4.7.5/socket.io.min.js" integrity="sha384-2huaZvOR9iDzHqslqwpR87isEmrfxqyWOF7hr7BY6KG0+hVKLoEXMPUJw3ynWuhO" crossorigin="anonymous"></script>-->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</body>
+</html>
